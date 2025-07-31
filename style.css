@@ -1,0 +1,78 @@
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background: #002b45;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+}
+
+section {
+  padding: 20px;
+  background: #fff;
+  margin: 10px auto;
+  max-width: 900px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+ul {
+  padding-left: 20px;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background: #002b45;
+  color: #fff;
+  margin-top: 20px;
+}
+
+#certGallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+#certGallery img {
+  width: 150px;
+  height: auto;
+  border: 1px solid #ccc;
+  padding: 5px;
+}
+
+.cert-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.cert-list li {
+  margin: 10px 0;
+}
+
+.cert-list a {
+  color: #003366;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.cert-link {
+  display: inline-block;
+  margin-top: 10px;
+  background: #003366;
+  color: #fff;
+  padding: 10px 15px;
+  text-decoration: none;
+  border-radius: 5px;
+}
